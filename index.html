@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>BMI計算</title>
+    <meta name="description" content="サイトの概要を記載" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/top.css" />
+  </head>
+  <body class="container">
+    <div class="contentWrapper">
+      <h1>BMI計算</h1>
+      <div class="inputArea">
+        <label class="label">身長</label>
+        <br />
+        <input type="text" id="heightBox" class="inputBox" required />
+        <br />
+        <label class="label">体重</label>
+        <br />
+        <input type="text" id="weightBox" class="inputBox" required />
+        <br />
+        <div class="buttonArea">
+          <button type="button" class="button" onclick="getBmi();">
+            結果を見る
+          </button>
+        </div>
+      </div>
+      <!-- 体重/身長/身長*10000 -->
+      <div class="resultArea">
+        <div class="centerArea">
+          <label class="label">あなたのBMI</label><br />
+          <input
+            type="text"
+            id="yourBmi"
+            class="viewBox"
+            name="name"
+            disabled
+          />
+        </div>
+        <p class="title">あなたの身長での各BMIの値毎の体重</p>
+        <div class="centerArea">
+          <label class="label">BMI22(標準体重)の体重</label><br />
+          <input type="text" id="bmi22" class="viewBox" disabled />
+          <br />
+          <label class="label">BMI21</label><br />
+          <input type="text" id="bmi21" class="viewBox" disabled />
+          <br />
+          <label class="label">BMI20(美容体重)</label><br />
+          <input type="text" id="bmi20" class="viewBox" disabled />
+          <br />
+          <label class="label">BMI19</label><br />
+          <input type="text" id="bmi19" class="viewBox" disabled />
+          <br />
+          <label class="label">BMI18(シンデレラ体重)</label><br />
+          <input type="text" id="bmi18" class="viewBox" disabled />
+          <br />
+          <label class="label">BMI17(モデル体重)</label><br />
+          <input type="text" id="bmi17" class="viewBox" disabled />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/top.js"></script>
+</html>
