@@ -52,4 +52,53 @@
   margin-top: 8px;
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90vw;
+    margin: 40px auto 80px;
+    padding: 24px 8px 16px;
+    border: 1px solid #333;
+    color: #333;
+  }
+  .container h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .container .inputArea {
+    width: 70vw;
+    margin: 32px auto 0;
+  }
+  .container .inputArea .inputBox {
+    width: 70vw;
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  .container .inputArea .buttonArea {
+    text-align: center;
+  }
+  .container .inputArea .buttonArea .button {
+    width: 22vw;
+    height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .container .resultArea .centerArea {
+    width: 70vw;
+    margin: 16px auto 16px;
+  }
+  .container .resultArea .title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .container .resultArea .viewBox {
+    width: 70vw;
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}
 /*# sourceMappingURL=top.css.map */
